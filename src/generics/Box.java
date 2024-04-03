@@ -9,5 +9,6 @@ public class Box<T> {
 
     public T setContent(T content) {
         this.content = content;
+        return content;
     }
 }
